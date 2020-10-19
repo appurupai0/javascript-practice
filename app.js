@@ -114,3 +114,10 @@ let studentList = [
 console.log(studentList[0].name);
 console.log(studentList[3]['from']);
 console.log(studentList[4].hobby);
+
+
+// 五次元配列
+
+// let nostalgicList = [2][2][3][2][1]
+
+let nostalgicList = 
