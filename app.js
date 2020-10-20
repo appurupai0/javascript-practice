@@ -120,4 +120,54 @@ console.log(studentList[4].hobby);
 
 // let nostalgicList = [2][2][3][2][1]
 
-let nostalgicList = 
+// let nostalgicList = 
+
+
+// let h2d = [["A","B","C","D"],["E","F","G","H"]];
+// console.log(h2d[0]);
+
+// 三次元配列
+/*let h3d = [
+	[
+		['a', 'b', 'c'],
+		['d', 'e', 'f']
+	],
+	[
+		['g', 'h', 'i'],
+		['j', 'k', 'l']
+	]
+
+];
+
+console.log(h3d[0][0][2]);
+*/
+
+
+// 四次元配列
+
+let h4d = [
+	[
+		[
+			['a', 'b', 'c'],
+			['d', 'e', 'f']
+		],
+		[
+			['g', 'h', 'i'],
+			['j', 'k', 'l']
+		]
+	],
+	[
+		[ 
+			['m', 'n', 'o'],
+			['p', 'q', 'r']
+		],
+		[
+			['s', 't', 'u'],
+			['v', 'w', 'x']
+		]
+	]
+];
+
+console.log(h4d[0][0][0][1]);
+console.log(h4d[1][0][1][2]);
+console.log(h4d[1][0][0]);
