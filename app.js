@@ -292,6 +292,16 @@ for(let i = 1; i <= 50; i++){
 	}
 }
 
+// 変数 x、y にそれぞれ任意の数値を代入し、x が y より大きい（超過）場合に、
+// 「xはyより大きい。」という文を表示するプログラムを作成してください。
+let x=20
+let y =3
+if(x > y){
+	console.log('xはyより大きい');
+}else{
+	console.log('ｙはxより大きい');
+}
+
 // ランダム変数でおみくじを作ってみよう
 console.log('ランダム変数');
 var random = Math.floor( Math.random() * 10 );
